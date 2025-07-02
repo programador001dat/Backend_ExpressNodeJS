@@ -3,7 +3,7 @@ const path = require('path');    // configurar diretorio renderizar paginas
 const express = require('express');   // Express é o Servidor para Backend
 const bodyParser = require('body-parser');   // Receber requisicoes de entrada de formularios
 
-require('dotenv').config();   // importando o dotenv
+require('dotenv').config();   // importando o dotenv, organizar dados sensiveis em outros lugares, como exemplo IP e PORTA do servidor.
 const MyServer = express();   // Estanciando o Express dentro da variavel, MyServer vai ser meu Express
 
 // Criando uma função que vai carregar o codigo. BackEnd
