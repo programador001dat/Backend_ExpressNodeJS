@@ -29,7 +29,7 @@ function main(){
       { id: 2, name: 'Bruna Aparecida Bueno', profisson: 'Maquiadora ProLine', age: 32},
       { id: 3, name: 'Roberto Wilson Aguiar', profission: 'Front-End', age: 53},
    ];
-   // Configurando uma nova ROTA.
+   // Configurando uma nova ROTA. para o JSON
    MyServer.get('/json', (req, res) => {
       return res.json(data);   // retorne dados JSON, que contem dentro da VARIAVEL data.
    });
