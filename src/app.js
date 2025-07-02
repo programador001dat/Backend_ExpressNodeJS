@@ -49,7 +49,7 @@ function main(){
    });  
 
    
-   // Configurando o que vai ser recebido da rota.
+   // Configurando o que vai ser recebido de dentro da pagina, O que o cliente vai nos enviar..
    MyServer.post('/login', (req, res) => {
       // Criando duas estancias, username e password.
       // Tem que CORRESPONDER OS NOMES IGUAIS ao do FORMULARIO</form> do codigo fonte, login.html, pense no id? name=username.
