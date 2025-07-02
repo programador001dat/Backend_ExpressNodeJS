@@ -31,6 +31,8 @@ function main(){
    ];
    // Configurando uma nova ROTA. para o JSON
    MyServer.get('/json', (req, res) => {
+      res.statusCode = 200; // Codigo de Sucesso.
+      res.setHeader('Content-Type', 'application/json'); // cabeçalho de aplicação JSON
       return res.json(data);   // retorne dados JSON, que contem dentro da VARIAVEL data.
    });
 
