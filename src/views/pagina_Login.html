@@ -18,11 +18,11 @@
          principla característica do Node.js é sua arquitetura assíncrona e orientada por eventos.
       </p>
       <h3> Faça login </h3>
-      <form action="/login" method="POST">
+      <form action="/login" method="POST"> 
          <label for="username">usuario:</label>
-         <input type="text" id="username" name="username" placeholder="usuario" required>
+         <input type="text" id="username" name="username" placeholder="usuario" required> <!-- No campo name=username tem que corresponder dentro do app.js a variaveis, para sim conseguir receber a req.body -->
          <label for="password">senha:</label>
-         <input type="text" id="password" name="password" placeholder="senha" required>
+         <input type="text" id="password" name="password" placeholder="senha" required> <!-- No campo name=password tem que corresponder dentro do app.js a variaveis, para sim conseguir receber a req.body -->
          <br>
          <button type="submit"> conectar </button>
       </form>
